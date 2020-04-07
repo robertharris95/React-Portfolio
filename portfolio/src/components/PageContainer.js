@@ -19,6 +19,9 @@ class PageContainer extends Component {
             <>
             <Router>
             <Header/>
+            <br/>
+            <br/>
+            <br/>
             <Container>
             <Wrapper>
                 <Route exact path="/" component={Main} />

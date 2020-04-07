@@ -1,0 +1,111 @@
+body{
+  /* Background styling */
+ background-image: 
+ url(https://i.pinimg.com/originals/72/a1/84/72a184aa7846cad0d5a82cf55dc3f406.jpg);
+ padding: 0px;
+ 
+}
+
+.menu{
+/* navbar positioning */
+    /* position: fixed; */
+    z-index: 99;
+    width: 100%;
+
+}
+
+.resize {
+  /* photo size help */
+    width: 500px;
+    height: 50%;
+}
+
+.resize {
+  /* photo size help */
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-color: gray;
+    border-width: 100%; 
+    margin: 5px;
+    float: left;
+}
+
+.bio{
+  /* About Me box  */
+   background-color: #ededed;
+   margin-left: 10%;
+   margin-right: 10%;
+   font-family: 'Oswald', sans-serif;
+}
+
+#bio{
+  /* box formatting */
+    margin: 30px;
+    margin-bottom:50px;
+
+}
+.clearfix {
+    overflow: auto;
+  }
+
+h2{
+  /* Heading styling */
+      font-size: 60px;
+      margin-bottom: -3%;
+      text-align: center;
+  }
+
+.banner{
+  /* Original banner position */
+      /* padding-top: 10%; */
+      width: 100%;
+      padding-bottom: 1%;
+  }
+
+#blog{
+  /* color edit */
+      color: rgba(0, 0, 0, 0.5);
+      
+  }
+
+  .navbar{
+    /* text in navbar to the right */
+text-align: right;
+float: right;
+  }
+
+  /* Form formatting */
+  .forms{
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f6f6f6+47,ededed+100;White+3D+%231 */
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+    margin-left: 5%;
+    margin-right: 5%;
+    opacity: 0.9;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px
+  }
+
+  /* Blog page in progress */
+  #blogplaceholder{
+    font-size: 100px;
+    text-align: center
+  }
+
+  /* to separate the cards */
+  .card{
+    margin: 3%;
+  }
+
+  /* For the project headings */
+  .Project-headings{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 60px;
+  }
+
+

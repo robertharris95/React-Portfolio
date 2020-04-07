@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 function Header() {
     return (
 <>
@@ -10,15 +11,15 @@ function Header() {
             <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
                     <div className="carousel-inner">
                       <div className="carousel-item active">
-                        <img src="./public/Personal Banner 1(1).jpg"
+                        <img src={process.env.PUBLIC_URL + "/images/Personal Banner 1(1).jpg" }
                          className="d-block w-100" alt="MEAN and MERN Stack" />
                       </div>
                       <div className="carousel-item">
-                        <img src="./public/Personal Banner 2.jpg" 
+                        <img src={process.env.PUBLIC_URL + "/images/Personal Banner 2.jpg" }
                         className="d-block w-100" alt="Collaboration"/>
                       </div>
                       <div className="carousel-item">
-                        <img src="./public/Personal Banner 3.jpg" 
+                        <img src={process.env.PUBLIC_URL + "/images/Personal Banner 3.jpg" } 
                         className="d-block w-100" alt="Mobile friendly websites"/>
                       </div>
                     </div>
@@ -35,7 +36,7 @@ function Header() {
     </div>
   </div>
 
-<nav className="navbar navbar-expand-lg navbar-light bg-light">
+<nav className="navbar navbar-expand-lg navbar-light bg-light menu">
       <Link className="navbar-brand" to="/">
         R.Harris Web Design
       </Link>

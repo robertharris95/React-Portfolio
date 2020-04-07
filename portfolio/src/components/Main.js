@@ -7,7 +7,7 @@ function Main() {
         <section className="rounded-lg bio row">
 
           <picture className="col-md-6">
-          <img src="./Professional-Photo.jpg" 
+          <img src={process.env.PUBLIC_URL + "/images/Professional-Photo.jpg" }
           className="float-left resize img-fluid rounded-lg"  
             alt="My professional headshot" />
           </picture>
