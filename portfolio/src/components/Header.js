@@ -55,18 +55,26 @@ function Header() {
           </li>
           <li className="nav-item">
             <Link
-              to="/discover"
-              className={window.location.pathname === "/discover" ? "nav-link active" : "nav-link"}
+              to="/personal"
+              className={window.location.pathname === "/personal" ? "nav-link active" : "nav-link"}
             >
-              Discover
+              Personal Projects
             </Link>
           </li>
           <li className="nav-item">
             <Link
-              to="/search"
-              className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
+              to="/school"
+              className={window.location.pathname === "/school" ? "nav-link active" : "nav-link"}
             >
-              Search
+              Schoolastic Projects
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link
+              to="/redesign"
+              className={window.location.pathname === "/redesign" ? "nav-link active" : "nav-link"}
+            >
+              Redesign Initiative
             </Link>
           </li>
         </ul>
