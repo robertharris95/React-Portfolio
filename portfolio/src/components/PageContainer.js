@@ -7,6 +7,7 @@ import School from "./School";
 import Personal from "./Personal";
 import Redesign from "./Redesign";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import Footer from "./Footer";
 
 class PageContainer extends Component {
     state = {
@@ -29,8 +30,10 @@ class PageContainer extends Component {
                 <Route exact path="/personal" component={Personal} />
                 <Route exact path="/redesign" component={Redesign} />
             </Wrapper>
+            <Footer/>
             </Container>
             </Router>
+            
             </>
         )
     }
